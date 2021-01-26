@@ -1,3 +1,2 @@
-# hackerrank-sol
-//Solutions to some of the hackerrank questions that i have solved.
-// As much as possible, the solutions would be in c++
+# Competitve Coding Solutions
+Solutions to some of the competitive coding questions I found interesting
