@@ -3,16 +3,16 @@
 
 using namespace std;
 
-int powerSum(int X, int N, int i) {
-if(pow(i,N)>X)
-    return 0;
-if(pow(i,N) == X)
-    return 1;
-return powerSum(X,N,i+1)+powerSum(X-pow(i,N),N,i+1);
-
+int powerSum(int X, int N, int i)
+{
+    if (pow(i, N) > X)
+        return 0;
+    if (pow(i, N) == X)
+        return 1;
+    return powerSum(X, N, i + 1) + powerSum(X - pow(i, N), N, i + 1);
 }
 
-//Default Main by Hackerrank
+// Default Main by Hackerrank
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
